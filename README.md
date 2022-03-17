@@ -1,7 +1,6 @@
 # WeFunder
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the API for the [PitchDeck App](https://github.com/jonada182/pitch_deck)
 
 ### Requirements 
 
@@ -11,39 +10,39 @@ application up and running.
 
 ### System dependencies
 
-* * `ImageMagick`
+* `ImageMagick`
 
-* * `poppler_utils`
+* `poppler_utils`
 
 ### Getting Started
 
-* * Install the app gems: `bundle install`
-* * Run the database migrations: `rails db:migrate:reset`
-* * Run the database seeder: `rails db:seed`
-* * Start the server: `rails s`
+* Install the app gems: `bundle install`
+* Run the database migrations: `rails db:migrate:reset`
+* Run the database seeder: `rails db:seed`
+* Start the server: `rails s`
 
 ### API endpoints
 
 #### Companies
 
-* * Get All Companies (GET): `companies`
-* * Get Company by Slug (GET): `companies/:slug`
-* * Create a Company (POST): `companies`
-* * Update Company by Slug (PUT): `companies/:slug`
-* * Delete a Company (DELETE): `companies/:slug`
+* Get All Companies (GET): `companies`
+* Get Company by Slug (GET): `companies/:slug`
+* Create a Company (POST): `companies`
+* Update Company by Slug (PUT): `companies/:slug`
+* Delete a Company (DELETE): `companies/:slug`
 
 #### Pitches
 
-* * Get All Pitches by Company Slug (GET): `pitches?company_slug=[:slug]`
-* * Get Pitch by ID (GET): `pitches/:id`
-* * Create a Pitch (POST): `pitches`
-* * Update Pitch by ID (PUT): `pitches/:id`
-* * Delete a Pitch (DELETE): `pitches/:id`
+* Get All Pitches by Company Slug (GET): `pitches?company_slug=[:slug]`
+* Get Pitch by ID (GET): `pitches/:id`
+* Create a Pitch (POST): `pitches`
+* Update Pitch by ID (PUT): `pitches/:id`
+* Delete a Pitch (DELETE): `pitches/:id`
 
 #### Slides
 
-* * Get All Slides by Pitch ID (GET): `slides?pitch_id=[:id]`
-* * Get Slide by ID (GET): `slides/:id`
-* * Create a Slide (POST): `slides`
-* * Update Slide by ID (PUT): `slides/:id`
-* * Delete a Slide (DELETE): `slides/:id`
+* Get All Slides by Pitch ID (GET): `slides?pitch_id=[:id]`
+* Get Slide by ID (GET): `slides/:id`
+* Create a Slide (POST): `slides`
+* Update Slide by ID (PUT): `slides/:id`
+* Delete a Slide (DELETE): `slides/:id`
