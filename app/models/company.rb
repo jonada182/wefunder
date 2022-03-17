@@ -1,6 +1,6 @@
 class Company < ApplicationRecord
 
-    has_many :pitches
+    has_one :pitch
 
     before_create :set_slug
 
